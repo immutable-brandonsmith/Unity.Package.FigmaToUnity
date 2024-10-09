@@ -632,6 +632,7 @@ namespace Figma
             public boolean itemReverseZIndex { get; set; }
             public LayoutWrap? layoutWrap { get; set; }
             public boolean strokesIncludedInLayout { get; set; }
+            public boolean? isFixed { get; set; }
 
             #region Mixin
             public Paint[] background { get; set; }
